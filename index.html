@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia e Descriptografia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main class="conteudo-principal">
+        <section class="conteudo-esquerda">
+            <img class="logo-alura" src="assets/Frame 6.png" alt="Logo Alura">
+            <textarea class="mensagem" rows="10" cols="50" placeholder="Digite seu texto"></textarea>
+            <span class="alert">
+                <img src="assets/bi_exclamation-circle-fill.png" alt="">
+                <p>Apenas letras minúsculas e sem acento.</p>
+            </span>
+            <div class="botao">
+                <button onclick="fazerCriptografia()" class="botao-criptografia">Criptografar</button>
+                <button onclick="fazerDescriptografia()" class="botao-descriptografia">Descriptografar</button>
+            </div>
+        </section>
+        <div class="conteudo-direita">
+            <div class="resultado-direita" id="default">
+                <img src="assets/High quality products 1 1.png" alt="Nenhuma mensagem encontrada">
+                <h3>Nenhuma mensagem encontrada</h3>
+                <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
+                               
+            </div>         
+            <div id="resultado" style="display: none;">
+                
+
+                 <div id="mensagem-resultado">
+                    
+                 </div>
+                 <button class="botao-copiar" onclick="copiar()">Copiar</button> 
+        </div>
+        </div>
+
+    </main>
+    <footer class="rodape">
+        <p class="desenvolvedor">Desenvolvido por Tailon Santana</p>
+    </footer>
+    <script src="app.js" defer></script>
+</body>
+</html>

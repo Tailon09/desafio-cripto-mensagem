@@ -1,0 +1,103 @@
+*{
+   padding: 0;
+   margin: 0; 
+}
+
+.logo-alura{
+    padding: 0 2%;
+}
+
+body{
+    background-color: #e5e5e5;
+}
+.conteudo-principal{
+    padding: 3%;
+    align-items: center;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-around;
+}
+.mensagem{
+    font-size: 1.5rem;
+    padding: 10px;
+    resize: none;
+    border: none;
+    border-radius: 16px;
+    outline: none;
+    width: 90%;
+    background-color: transparent;
+}
+.botao{
+    display: flex;
+    padding: 10px 0;
+    gap: 3%;
+}
+.botao-criptografia{
+    width: 328px;
+    height: 67px;
+    border-style: hidden;
+    background-color: #0A3871;
+    color: #D8DFE8;
+    font-size: 24px;
+    font-weight: 450;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.botao-descriptografia{
+    width: 328px;
+    height: 64px;
+    border-style: hidden;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-size: 24px;
+    font-weight: 450;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.alert{
+    display: flex;
+    gap: 1%;
+}
+.conteudo-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.resultado-direita{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+}
+.rodape{
+    background-color: #37b7c3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 22.5px;
+}
+.desenvolvedor{
+    text-align: center;
+    color: #ebf4f6;
+    font-weight: 200;
+
+}
+#resultado{
+    font-size: 32px;
+    flex-direction: column;
+}
+
+.botao-copiar{    
+    width: 328px;
+    height: 64px;
+    border-style: hidden;
+    background-color: #37b7c3;
+    color: #ebf4f6;
+    font-size: 24px;
+    font-weight: 450;
+    border-radius: 24px;
+    cursor: pointer;
+}
